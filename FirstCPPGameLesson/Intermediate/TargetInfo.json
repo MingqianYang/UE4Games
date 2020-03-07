@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FirstCPPGameLesson",
+			"Path": "F:\\UE4Games\\FirstCPPGameLesson\\Source\\FirstCPPGameLesson.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FirstCPPGameLessonEditor",
+			"Path": "F:\\UE4Games\\FirstCPPGameLesson\\Source\\FirstCPPGameLessonEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

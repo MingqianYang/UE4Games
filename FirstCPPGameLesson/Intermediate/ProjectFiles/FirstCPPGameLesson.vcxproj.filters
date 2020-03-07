@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FirstCPPGameLesson.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{321BE1D8-B8D4-4F11-8099-786043ACCBCC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstCPPGameLesson.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FirstCPPGameLessonEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{52C48241-8AEE-49A7-8642-C8937B9B94DF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FirstCPPGameLesson">
+      <UniqueIdentifier>{9C91D88D-5FA6-4719-BBBC-1194D6D6F1DE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstCPPGameLesson\FirstCPPGameLesson.Build.cs">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FirstCPPGameLesson\FirstCPPGameLesson.cpp">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstCPPGameLesson\FirstCPPGameLesson.h">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstCPPGameLesson\FirstCPPGameLessonGameModeBase.cpp">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstCPPGameLesson\FirstCPPGameLessonGameModeBase.h">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClInclude>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FirstCPPGameLesson\FPSCharacter.h">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstCPPGameLesson\DamageableActor.h">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstCPPGameLesson\MyActor.h">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FirstCPPGameLesson\FPSCharacter.cpp">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstCPPGameLesson\DamageableActor.cpp">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstCPPGameLesson\MyActor.cpp">
+      <Filter>Source\FirstCPPGameLesson</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

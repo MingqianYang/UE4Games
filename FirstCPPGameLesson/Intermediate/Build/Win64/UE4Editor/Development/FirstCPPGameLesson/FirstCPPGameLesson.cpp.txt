@@ -1,0 +1,2 @@
+F:\UE4Games\FirstCPPGameLesson\Intermediate\Build\Win64\UE4Editor\Development\FirstCPPGameLesson\Definitions.FirstCPPGameLesson.h
+F:\UE4Games\FirstCPPGameLesson\Source\FirstCPPGameLesson\FirstCPPGameLesson.h
