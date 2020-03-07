@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"F:\\UE4Games\\FirstCPPGameLesson\\Source\\FirstCPPGameLesson\\FirstCPPGameLesson.Build.cs",
-		"F:\\UE4Games\\FirstCPPGameLesson\\Source\\FirstCPPGameLesson.Target.cs",
-		"F:\\UE4Games\\FirstCPPGameLesson\\Source\\FirstCPPGameLessonEditor.Target.cs"
-	],
-	"EngineVersion": "4.24.3"
-}
