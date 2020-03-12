@@ -3,6 +3,9 @@
 
 #include "Bullet.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "UltimateGameMode.h"
+#include "Target.h"
+#include "Engine/World.h"
 
 // Sets default values
 ABullet::ABullet()
@@ -17,8 +20,11 @@ ABullet::ABullet()
 	BulletMovement->InitialSpeed = 2000.f;
 	BulletMovement->MaxSpeed = 2000.f;
 
+	//delegate, when the bullet hit something, it will do somthing in the funciton OnBulletHit
+	OnActorHit.AddDynamic(this, &ABullet::OnBulletHit);
 
 }
+
 
 // Called when the game starts or when spawned
 void ABullet::BeginPlay()
@@ -32,5 +38,21 @@ void ABullet::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ABullet::OnBulletHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
+{
+	if (ATarget* Target = Cast<ATarget>(OtherActor))
+	{
+		if (AUltimateGameMode* GM = Cast<AUltimateGameMode>(GetWorld()->GetAuthGameMode()))
+		{
+			GM->OnTargetHit();
+		}
+		Target->Destroy();
+
+		// dont destory it immediately, but marked it to be destroyed
+		Destroy();
+	}
+	//
 }
 
